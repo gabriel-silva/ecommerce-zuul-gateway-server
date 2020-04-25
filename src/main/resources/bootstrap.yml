@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ecommerce-zuul-gateway-server
+  cloud:
+    config:
+      uri: https://ecommerce-config-server.herokuapp.com
+
+#spring:
+#  application:
+#    name: ecommerce-zuul-gateway-server
+#  cloud:
+#    config:
+#      uri: http://localhost:3999
